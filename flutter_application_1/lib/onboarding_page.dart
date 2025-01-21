@@ -21,7 +21,6 @@ class OnboardingPage extends StatelessWidget {
             ),
           )),
           Expanded(
-            child: Container(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -55,8 +54,7 @@ class OnboardingPage extends StatelessWidget {
                 )
               ))
               ],
-            )
-          ))
+            ))
         ],
       ),
     );
